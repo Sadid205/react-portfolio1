@@ -93,7 +93,7 @@ button{
 
 /* -----------------------Responsive------------------------- */
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:600px) {
   header .nav {
     display: none;
   }
@@ -102,6 +102,15 @@ button{
     width: 100%;
     display: block;
     color: var(--white);
+  }
+
+  .container{
+    max-width: 100%;
+    
+  }
+
+  header {
+    margin-left: 15%;
   }
 
   .toggle{
@@ -119,23 +128,38 @@ button{
     background-color: var(--headingColor);
   }
 
-  
+ .hero {
+  left: 15%;
+ }
 
   .about img {
     margin-top: 150px;
   }
 
+  .about .heading {
+    font-size: 35px;
+    left: 50%;
+  }
+
   .about {
-    margin-bottom: 500px;
+    margin-bottom: 800px;
   }
 
   .about p {
-    left: 33%;
+    left: 50%;
   }
 
   .about button {
     left: 35%;
   }
+
+  
+
+  .counter {
+    margin-bottom: 400px;
+  }
+
+  
 
   .content {
     position: relative;
@@ -178,31 +202,46 @@ button{
   }
 
   .services {
-    margin-bottom: 1600px;
+    margin-bottom: 2500px;
+    left: 15%;
   }
 
  
 
   article .grid3 {
     grid-template-columns: repeat(2, 1fr);
+    left: 15%;
+  }
+
+  article .heading {
+    margin-left: 25%;
   }
 
   article .catButton {
     display: block;
-    margin-left: 15%;
+    margin-left: 30%;
+  }
+
+  .blog .heading {
+    margin-left: 25%;
   }
 
   .blog .grid3 {
     grid-template-columns: repeat(1, 1fr);
+    left: 15%;
   }
 
   .blog {
-    margin-bottom: 1200px;
+    margin-bottom: 1400px;
   }
 
   .contact .flexSb{
     display: block;
-    left: 20%;
+    left: 30%;
+  }
+
+  .contact .heading {
+    margin-left: 25%;
   }
 
   .contact button {
@@ -214,7 +253,9 @@ button{
     margin-bottom: 100px;
   }
 
-  
+  footer {
+    margin-left: 25%;
+  }
 
 }
 
@@ -266,7 +307,7 @@ section{
 }
 
 .hero h1 {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 600;
   color: var(--primaryColor);
 }
