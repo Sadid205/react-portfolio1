@@ -93,7 +93,7 @@ button{
 
 /* -----------------------Responsive------------------------- */
 
-@media screen and (max-width:300px) {
+@media screen and (max-width:768px) {
   header .nav {
     display: none;
   }
