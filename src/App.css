@@ -110,8 +110,10 @@ button{
   }
 
   header {
-    margin-left: 15%;
+    margin-left:10% ;
   }
+
+  
 
   .toggle{
     display: block;
@@ -129,7 +131,7 @@ button{
   }
 
  .hero {
-  left: 15%;
+  left: 10%;
  }
 
   .about img {
@@ -151,6 +153,11 @@ button{
 
   .about button {
     left: 35%;
+  }
+
+
+  .about .left {
+    margin-left: 10%;
   }
 
   
@@ -203,14 +210,14 @@ button{
 
   .services {
     margin-bottom: 2500px;
-    left: 15%;
+    left: 10%;
   }
 
  
 
   article .grid3 {
     grid-template-columns: repeat(2, 1fr);
-    left: 15%;
+    left: 10%;
   }
 
   article .heading {
@@ -228,7 +235,7 @@ button{
 
   .blog .grid3 {
     grid-template-columns: repeat(1, 1fr);
-    left: 15%;
+    left: 10%;
   }
 
   .blog {
@@ -254,7 +261,7 @@ button{
   }
 
   footer {
-    margin-left: 25%;
+    margin-left: 20%;
   }
 
 }
