@@ -211,8 +211,8 @@ export const contact = [
   },
   {
     icon: <PhoneIphone />,
-    text1: "01800008888",
-    text2: "01766631778",
+    text1: "01881543084",
+    text2: "01608480606",
   },
   {
     icon: <EmailOutlined />,
